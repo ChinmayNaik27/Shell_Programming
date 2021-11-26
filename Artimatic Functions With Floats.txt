@@ -1,0 +1,11 @@
+#Artimatic_Functions_With_Floats
+echo"Enter value of a:"
+read a                                                          #taking input for a 
+echo"Enter value of b:"
+read b                                                          #taking input for b
+a=`$a + $b |bc`
+b=`expr $a // $b |bc`
+c=`expr $a / $b |bc`
+d=`expr $a \* $b |bc`                                           #\ is used to use * as multiplication
+e=`expr $a % $b |bc`
+echo $a $b $c $d $e

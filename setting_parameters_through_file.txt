@@ -1,0 +1,2 @@
+set `cat test`  #contents of test file are set as parametrs 
+echo $*           #shows all the [parametrs set at 1ce

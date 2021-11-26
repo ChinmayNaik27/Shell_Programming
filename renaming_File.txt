@@ -1,0 +1,3 @@
+#Progarmming_For_Renaming_file
+mv $1 $2             #rename name in positional parameter 2 to parameter 1
+cat  $2                  #show File 2

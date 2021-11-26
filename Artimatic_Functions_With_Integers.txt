@@ -1,0 +1,10 @@
+#Artimatic Functions With Integers
+echo"Enter value of a:"
+read a                                                          #taking input for a 
+echo"Enter value of b:"
+read b                                                          #taking input for b
+echo`expr $a + $b `
+echo`expr $a // $b `
+echo`expr $a / $b `
+echo`expr $a \* $b `                                           #\ is used to use * as multiplication
+echo`expr $a % $b `

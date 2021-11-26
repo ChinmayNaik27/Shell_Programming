@@ -1,0 +1,5 @@
+#Program to Rename By taking name from user
+echo"Provide Filename to Rename:"
+read name                                        #Store the input in name 
+mv $1 $name                                      #remname file in $1 with $name
+cat $name                                        #display $name file

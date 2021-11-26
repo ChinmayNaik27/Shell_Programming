@@ -1,0 +1,3 @@
+name=$1           # setting the $1 parametrs to name
+set `who am i`    #setting positional parmetres
+mv $name $name.$1 #displays user name . Filename
