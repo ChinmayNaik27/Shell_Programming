@@ -11,7 +11,7 @@ fi
 #or 
 #using vowl by or
 echo"Enter lowercase character :\c"
-read var                                                                 #store input inn var 
+read var                                                                 #store input in var 
 if [ `var|wc -c`-eq 2 ]
 then
    if[ $var =a -o  $var =e -o  $var =i -o  $var =o -o  $var =u ]         # or is used by -o
