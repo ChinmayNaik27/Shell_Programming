@@ -1,20 +1,20 @@
 #logical operators 
 #and 
 echo"Enter between 50 & 100:\c"
-read num
-if [ $num -le 100 -a $num -ge 50 ]
+read num                                                                  #store input in num
+if [ $num -le 100 -a $num -ge 50 ]                                        # and is used by -a
 then 
    echo"Range staisfied"
 else
   echo"Range exceeded"
-if
+fi
 #or 
 #using vowl by or
 echo"Enter lowercase character :\c"
-read var 
+read var                                                                 #store input inn var 
 if [ `var|wc -c`-eq 2 ]
 then
-   if[ $var =a -o  $var =e -o  $var =i -o  $var =o -o  $var =u ]
+   if[ $var =a -o  $var =e -o  $var =i -o  $var =o -o  $var =u ]         # or is used by -o
    then 
        echo"it has a vowel"
     else
