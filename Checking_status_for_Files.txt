@@ -1,0 +1,9 @@
+#Checking_status_for_Files
+echo"Enter source and target file"
+$source $target
+if mv $source $target
+then
+   echo"Success"
+else
+echo"Unsuccessful"
+fi
