@@ -1,0 +1,9 @@
+##Checking_conditions
+echo"Enter a no between 10 to 20"
+read num                                                      #entered name is stored in num
+if [ $num -lt 10 ]                                            #num<10
+then
+   echo"Range Satisfied"
+elif [ $num -gt 20 ]                                           #num>20
+   echo"Out Of Range"
+fi

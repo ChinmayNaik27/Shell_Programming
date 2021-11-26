@@ -1,0 +1,8 @@
+#creating_run_checks_on_file
+echo"Enter a File Name :"
+read name                                               #store input in name
+if [ -f $ name ]                                        #for file
+then 
+  echo"File name Entered"
+else
+  echo"Unsuccessful"

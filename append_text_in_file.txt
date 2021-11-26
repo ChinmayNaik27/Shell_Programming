@@ -1,0 +1,10 @@
+#append_text_in_file
+echo "enter a file name "
+read name                                                 #store entered vaule in Name
+if [ -w $name ]                                           #checing for write permissions                                          
+then 
+   echo" Type your matter to append into a file and Press Ctrl+d to exit"
+   cat>> $name                                            #append in that file
+else
+   echo"You are not permitted"
+fi                                                          #close Loop
