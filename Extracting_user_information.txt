@@ -1,0 +1,14 @@
+#Program to display passwd file contents to screen 
+echo"Enter user name:\c"
+read name
+IFS=:
+line = grep `$name /etc/passwd`
+set $line
+echo"User name :$1"
+echo"Password :$2"
+echo"User id :$3"
+echo"Group id :$4"
+echo"Commment Field :$5"
+echo"Persent Working Directory :$6"
+echo"Default Shell :$7"
+
