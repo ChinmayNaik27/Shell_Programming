@@ -1,0 +1,18 @@
+#WAP to Print All Combinaltions of 1,2 and 3
+a=1
+if [ a -le 3 ]
+then 
+   b=1
+   if [ b -le 3 ]
+   then 
+      c=1
+      if [ c -le 3 ]
+      then
+         echo $a $b $c
+      c=`expr $c+1`
+      fi
+   b=`expr $b+1`
+   fi
+a=`expr $a+1`
+fi
+   
