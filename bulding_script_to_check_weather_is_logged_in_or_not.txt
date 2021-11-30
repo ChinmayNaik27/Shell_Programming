@@ -1,0 +1,21 @@
+##bulding script to check weather is logged in or not
+echo"Enter user name:\c"
+read name
+time=0
+while true
+do 
+   who|grep "$name" > /dev/null  #assuming user has logged in
+   if [ $? -eq 0 ]
+   then 
+   echo"$name user is logged in"
+   if [ time -ne 0]
+   then
+    echo"$name user is $time late"
+    fi
+    exit
+   fi
+   else
+     time`$time + 1`
+     sleep 60
+   fi
+done
